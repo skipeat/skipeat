@@ -472,6 +472,27 @@ margin-bottom: 40px;
   padding: 5px;
   margin-top: 15px;
 }
+
+
+.datepicker {
+    z-index: 1200 !important;
+}
+
+.datepicker{
+  color: #333;
+}
+
+.modal-open{
+  color: #333;
+}
+
+#searchmodal{
+  color: #333;
+}
+
+.bootstrap-datetimepicker-widget{
+  color: #333;
+}
   @media (max-width: 480px){
     .fullscreen .modal-body ul {
       padding: 30px 0 0 0;
