@@ -1,0 +1,16 @@
+body {
+  padding-top: 70px;
+}
+
+.navbar-default {
+	 background-color: white;
+	 border: none;
+	}
+
+input{
+	border: none;
+}
+
+.navbar-default .navbar-toggle {
+	border: none;
+}
