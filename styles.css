@@ -309,6 +309,12 @@ label{
   height: 100%;
 }
 
+.maps-mobile{
+  position: fixed;
+  right: 0;
+  height: 90%;
+}
+
 .filters{
   padding-top: 20px;
   top: 50px;
