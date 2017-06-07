@@ -479,7 +479,13 @@ margin-bottom: 40px;
   margin-top: 15px;
 }
 
-
+.btn-filters{
+  background-color: white;
+  color: #333;
+  font-weight: 500;
+  padding: 0;
+  border: none;
+}
 .datepicker {
     z-index: 1200 !important;
 }
