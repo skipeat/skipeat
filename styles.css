@@ -65,14 +65,12 @@ body,html {
 
 
 #searchModal{
-  z-index: 10000;
+  z-index: 3000;
 }
 
 #menuModal{
   z-index: 4000;
 }
-
-
 .panel-heading .accordion-toggle:after {
     /* symbol for "opening" panels */
     font-family: 'FontAwesome';  /* essential for enabling glyphicon */
@@ -331,14 +329,15 @@ label{
   width: 100%;
   z-index: 2;
   background-color: white;
-      border-bottom: 1px solid #e4e4e4;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
 #map{
   z-index: 5000;
 }
 
+=======
+>>>>>>> parent of 5be8871... Search Page fixed
 .form-group input{
 font-size: 18px;
 line-height: 34.5px;
@@ -422,13 +421,6 @@ margin-bottom: 40px;
     color: #333;
   }
 
-.smallscreen .modal-dialog {
-    margin: 0 0 0 0;
-    width: 100%;
-    height: auto !important;
-    padding: 0;
-    color: #333;
-}
   .fullscreen .modal-content {
     height: 100%;
     min-height: 100%;
@@ -439,18 +431,8 @@ margin-bottom: 40px;
     border: 0px;
   }
 
-  .smallscreen .modal-content {
-    height: 100%;
-    min-height: 100%;
-    border-radius: 0;
-    color: #333;
-    background: rgba(255, 255, 255, 1);
-    overflow:hidden;
-    border: 0px;
-}
-
   .fullscreen .modal-body ul {
-    padding: 50px 0 0 0;
+    padding: 100px 0 0 0;
   }
 
   .fullscreen .modal-body li {
@@ -461,12 +443,6 @@ margin-bottom: 40px;
     color: #333;
     cursor: pointer;
     font-size: 20px;
-  }
-  
-    .smallscreen a {
-    color: #ff7400;
-    cursor: pointer;
-    font-size: 16px;
   }
 
   .close{
@@ -558,7 +534,11 @@ body.modal-open{
 }
 
 .listingrows{
+<<<<<<< HEAD
   top: 50px;
+=======
+  top: 120px;
+>>>>>>> parent of 5be8871... Search Page fixed
 }
 
 
@@ -566,13 +546,16 @@ body.modal-open{
   padding-right: 0px !important;  
 }
 
-.modal.fade.smallscreen.in{
+.modal.fade.fullscreen.in{
   padding-right: 0px !important;  
 }
 
 .modal-open{overflow:auto;padding-right:0 !important;}
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> parent of 5be8871... Search Page fixed
   @media (max-width: 480px){
     .fullscreen .modal-body ul {
       padding: 30px 0 0 0;
