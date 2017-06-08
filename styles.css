@@ -336,7 +336,7 @@ label{
 }
 
 #map{
-  z-index: 5000;
+  z-index: 2000;
 }
 
 .form-group input{
@@ -354,7 +354,7 @@ line-height: 34px
   left: 0px !important;
   right: 0px !important;
   margin: 0 auto;
-  z-index: 1000;
+  z-index: 3000;
   text-align: center;
   background-color: #ffffff;
   padding: 10px;
@@ -559,10 +559,8 @@ body.modal-open{
 
 .listingrows{
   top: 50px;
-<<<<<<< HEAD
+
   padding-top: 30px;
-=======
->>>>>>> parent of fa5ea5e... search fixed again
 }
 
 
@@ -575,10 +573,7 @@ body.modal-open{
 }
 
 .modal-open{overflow:auto;padding-right:0 !important;}
-<<<<<<< HEAD
 =======
-
->>>>>>> parent of fa5ea5e... search fixed again
 
   @media (max-width: 480px){
     .fullscreen .modal-body ul {
