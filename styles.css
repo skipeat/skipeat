@@ -65,7 +65,7 @@ body,html {
 
 
 #searchModal{
-  z-index:3000;
+  z-index: 3000;
 }
 
 #menuModal{
@@ -312,6 +312,7 @@ label{
   position: fixed;
   right: 0;
   height: 100%;
+  top: 120px;
 }
 
 .maps-mobile{
@@ -420,6 +421,7 @@ margin-bottom: 40px;
     color: #333;
     background: rgba(255, 255, 255, 1);
     overflow:auto;
+    border: 0px;
   }
 
   .fullscreen .modal-body ul {
@@ -512,21 +514,32 @@ margin-bottom: 40px;
 }
 
 body{
-  overflow: hidden;
-
-  position: fixed;
+  position: relative;
 }
 
 body.modal-open{
-  overflow: hidden;
-  position: fixed;
-}
-
-body.viewport-lg{
   position: absolute;
 }
 
 
+.navbar{
+  z-index: 5000 !important;
+}
+
+.listingrows{
+  top: 120px;
+}
+
+
+.modal.fade.fullscreen.in{
+  padding-right: 0px !important;  
+}
+
+.modal.fade.fullscreen.in{
+  padding-right: 0px !important;  
+}
+
+.modal-open{overflow:auto;padding-right:0 !important;}
   @media (max-width: 480px){
     .fullscreen .modal-body ul {
       padding: 30px 0 0 0;
