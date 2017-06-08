@@ -321,7 +321,7 @@ label{
   position: fixed;
   height: 70px;
   width: 100%;
-  z-index: 1;
+  z-index: 2;
   background-color: white;
 }
 
@@ -340,7 +340,7 @@ line-height: 34px
   left: 0px !important;
   right: 0px !important;
   margin: 0 auto;
-  z-index: 2000;
+  z-index: 1;
   text-align: center;
   background-color: #ffffff;
   padding: 10px;
