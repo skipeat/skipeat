@@ -10,6 +10,11 @@
   background-color: #ff7400;
 }
 
+.bgorange2{
+  background-color: #ff4d00;
+}
+
+
 .btn-fb{
     font-weight: 300;
     padding: 15px;
@@ -72,7 +77,9 @@ body,html {
   z-index: 4000;
 }
 
-
+.align-middle{
+  vertical-align: middle !important;
+}
 .panel-heading .accordion-toggle:after {
     /* symbol for "opening" panels */
     font-family: 'FontAwesome';  /* essential for enabling glyphicon */
@@ -573,8 +580,13 @@ body.modal-open{
 }
 
 .modal-open{overflow:auto;padding-right:0 !important;}
-=======
 
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px 12px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
   @media (max-width: 480px){
     .fullscreen .modal-body ul {
       padding: 30px 0 0 0;
