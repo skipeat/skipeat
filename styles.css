@@ -653,6 +653,10 @@ body.modal-open{
 #filters{
   transform: translate3d(0,0,0);
 }
+
+#filters .modal-content{
+   transform: translate3d(0,0,0);
+}
 #filters .modal-body{
   overflow: auto;
 }
