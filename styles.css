@@ -634,6 +634,8 @@ body.modal-open{
     border-top: 1px solid #e5e5e5;
     position: fixed;
     bottom: 0;
+    background-color: white;
+    height: 100px;
 }
   @media (max-width: 480px){
     .fullscreen .modal-body ul {
