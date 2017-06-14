@@ -648,6 +648,8 @@ body.modal-open{
   z-index: 10000000000;
   background-color: white;
 }
+
+
   @media (max-width: 480px){
     .fullscreen .modal-body ul {
       padding: 30px 0 0 0;
