@@ -628,7 +628,7 @@ body.modal-open{
   color: #ff7400;
 }
 
-.modal-footer {
+#filters .modal-footer {
     padding: 15px;
     text-align: right;
     border-top: 1px solid #e5e5e5;
@@ -640,7 +640,10 @@ body.modal-open{
 
 }
 
-.modal-header{
+#filters .modal-header{
+  position: fixed;
+  top:0
+  left:0;
   width: 100%;
   z-index: 10000000000;
   background-color: white;
