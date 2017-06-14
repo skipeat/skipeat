@@ -361,7 +361,7 @@ label{
 }
 
 .filters{
-  padding-top: 20px;
+  padding-top: 35px;
   top: 50px;
   position: fixed;
   height: 70px;
@@ -632,7 +632,7 @@ body.modal-open{
     padding: 15px;
     text-align: right;
     border-top: 1px solid #e5e5e5;
-    position: sticky; !important;
+    position: fixed;
     bottom: 0;
     left: 0;
     background-color: white;
@@ -641,7 +641,7 @@ body.modal-open{
 }
 
 #filters .modal-header{
-  position: sticky; !important;
+  position: fixed;
   top:0;
   left:0;
   width: 100%;
@@ -659,6 +659,14 @@ body.modal-open{
 }
 #filters .modal-body{
   overflow: auto;
+}
+
+.searchtable{
+  margin-top: 15px;
+}
+
+.searchtable th input{
+  border-bottom: 1px #ff7400 solid;
 }
   @media (max-width: 480px){
     .fullscreen .modal-body ul {

@@ -39,7 +39,7 @@
   <body>
  <!-- MODALS -->
   <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" aria-labelledby="myModalLabel" data-backdrop="false" aria-hidden="true">
-    <div class="modal-dialog visible-xs">
+    <div class="modal-dialog visible-xs visible-sm">
       <div class="modal-content" style="color:#fff;">
         <div class="modal-header" style="border:0;">
           <a class="pull-left" href="index.html"><img src="img/triangle-sk.svg" height="34px"></a>
@@ -60,7 +60,7 @@
   </div><!-- /.fullscreen -->
     
  <div class="modal fade smallscreen" id="searchModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" aria-hidden="true">
-    <div class="modal-dialog visible-xs">
+    <div class="modal-dialog">
       <div class="modal-content" style="color:#fff;">
         <div class="modal-header" style="border:0;">
             <button type="button" class="pull-left close orange1" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times-thin fa-2x" aria-hidden="true"></i></button>
@@ -196,33 +196,15 @@
       <div class="search-container"> 
         <div class="navbar-header">
                  <a class="pull-left navbar-brand" href="index.html"><img src="img/triangle-sk.svg" height="34px"></a>
-<button type="button" class=" navbar-toggle collapsed pull-left" data-toggle="modal" data-target="#menuModal" aria-expanded="false">
+<button type="button" class=" navbar-toggle collapsed pull-left visible-sm visible-xs" data-toggle="modal" data-target="#menuModal" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
             <i class="orange1 fa fa-angle-down" aria-hidden="true"></i>
 </button>
-                    <button type="button" class="pull-left searchdown navbar-toggle navbartogglesearch collapsed" data-toggle="modal" data-target="#searchModal" aria-expanded="false"> 
+                    <button type="button" class="pull-left searchdown navbar-toggle navbartogglesearch collapsed visible-sm visible-xs" data-toggle="modal" data-target="#searchModal" aria-expanded="false"> 
             <span class="sr-only">Toggle navigation</span>
             <i class="orange1 fa fa-search" aria-hidden="true"></i></button>
-</div>
-</nav>
-<div class="container filters hidden-xs ">
-      <a href="#"><span>Aperto ora</span></a>
-      <a href="#"><span>Nuovo</span></a>
-      <a href="#"><span>Tutte le cucine</span></a>
-    </div>
-    </div>
- <div class="visible-xs visible-sm mapfilters" style="bottom:36px;">
-      <button type="button" class="btn-filters" data-toggle="modal" data-target="#map" data-dismiss="modal"><span>Mappa</span>
-      <span><i class="fa fa-map-o" aria-hidden="true"></i></span></button>
-      <span>|</span>
-      <button type="button" class="btn-filters" data-toggle="modal" data-target="#filters" data-dismiss="modal"><span>Filtri</span>
-      <span><i class="fa fa-sliders" aria-hidden="true"></i></span></button>
-    </div>
-
- <div class="container width100">
-    <div class="row">
-    <div class="col-md-8 listingrows">
-<!-- <table class="table table-bordered visible-lg">
+<div class="row">
+            <table class="visible-md visible-lg col-md-4 searchtable">
     <tr>
       <th class="col-md-5 col-xs-5"><div class="orange1">Dove</div>
       <input type="text" placeholder="Indirizzo">
@@ -241,7 +223,31 @@
       </th>
               
     </tr>
-</table> -->
+</table>
+</div>
+</div> 
+</div>
+</div>
+
+</nav>
+<div class="container filters hidden-xs hidden-sm ">
+      <a href="#"><span>Aperto ora</span></a>
+      <a href="#"><span>Nuovo</span></a>
+      <a href="#"><span>Tutte le cucine</span></a>
+    </div>
+    </div>
+ <div class="visible-xs visible-sm mapfilters" style="bottom:36px;">
+      <button type="button" class="btn-filters" data-toggle="modal" data-target="#map" data-dismiss="modal"><span>Mappa</span>
+      <span><i class="fa fa-map-o" aria-hidden="true"></i></span></button>
+      <span>|</span>
+      <button type="button" class="btn-filters" data-toggle="modal" data-target="#filters" data-dismiss="modal"><span>Filtri</span>
+      <span><i class="fa fa-sliders" aria-hidden="true"></i></span></button>
+    </div>
+
+ <div class="container width100">
+    <div class="row">
+    <div class="col-md-8 listingrows">
+
     <h3 style="padding: 32px 0 32px 0;">Let's go skipeat.</h3>
       <div class="row">
       <div class="col-md-6 col-sm-6 col-lg-4">
