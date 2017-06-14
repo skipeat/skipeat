@@ -633,6 +633,11 @@ body.modal-open{
     text-align: right;
     border-top: 1px solid #e5e5e5;
     position: sticky;
+    position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
     bottom: 0;
     left: 0;
     background-color: white;
@@ -641,6 +646,11 @@ body.modal-open{
 }
 
 #filters .modal-header{
+  position: sticky;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
   position: sticky;
   top:0;
   left:0;
