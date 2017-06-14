@@ -647,7 +647,6 @@ body.modal-open{
   width: 100%;
   z-index: 10000000000;
   background-color: white;
-  min-height: 80px;
 }
   @media (max-width: 480px){
     .fullscreen .modal-body ul {
