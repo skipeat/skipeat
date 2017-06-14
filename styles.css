@@ -649,7 +649,9 @@ body.modal-open{
   background-color: white;
 }
 
-
+#filters .modal-body{
+  overflow: auto;
+}
   @media (max-width: 480px){
     .fullscreen .modal-body ul {
       padding: 30px 0 0 0;
