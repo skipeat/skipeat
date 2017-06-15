@@ -1,142 +1,172 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Skipeat | We are Skipeat, it's nice to meet you.</title>
+<!-- CSRF Token -->
+<meta name="csrf-token" content="Bd3jfZxwi0qpbQWg3KLNusklP6yO3qHjl5AUakrl">
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<title>Skipeat | We are Skipeat, it's nice to meet you.
+</title>
 
-    <!-- Custom styles for this template -->
-    <link href="navbar-fixed-top.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
- <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
- <script src="https://use.fontawesome.com/9bbc3d9a0a.js"></script>     
-  </head>
+<!-- Bootstrap Styles -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-  <body>
+<!-- Custom styles for this template -->
+<link href="css/navbar-fixed-top.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
 
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="modal" data-target="#menuModal" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <i class="orange1 fa fa-angle-down" aria-hidden="true"></i>
-          </button>
-          <a class="navbar-brand" href="index.html"><img src="img/logo.svg" height="34px"></a>
-          </div>
 
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="about.html">About</a></li>
-            <li><a href="login.html">Accedi</a></li>
-            <li><a href="signup.html">Registrati</a></li>
-          </ul>
+<!-- Scripts -->
+<script src="https://use.fontawesome.com/9bbc3d9a0a.js"></script>
+<script>
+window.Laravel = {"csrfToken":"Bd3jfZxwi0qpbQWg3KLNusklP6yO3qHjl5AUakrl"};
+</script>
+</head>
+<body>
+<div id="app">
 
-        </div><!--/.nav-collapse -->
-      </div>
+<!-- Fixed navbar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
 
-    </nav>
+<button type="button" class="navbar-toggle collapsed" data-toggle="modal" data-target="#menuModal" aria-expanded="false" aria-controls="navbar">
+<span class="sr-only">Toggle navigation</span>
+<i class="orange1 fa fa-angle-down" aria-hidden="true"></i>
+</button>
 
-  <!-- FULLSCREEN MODAL CODE (.fullscreen) -->
-  <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" aria-hidden="true">
-    <div class="modal-dialog visible-xs">
-      <div class="modal-content" style="color:#fff;">
-        <div class="modal-header" style="border:0;">
-            <button type="button" class="close orange1" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times-thin fa-2x" aria-hidden="true"></i></button> 
-            <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
-        </div>
-        <div class="modal-body">
-          <ul style="list-style-type:none;">
-            <li><a href="index.html">Home</a></li>
-            <hr>
-            <li><a href="about.html">About</a></li>
-            <li><a href="login.html">Accedi</a></li>
-            <li><a href="signup.html">Registrati</a></li>
-                        <hr>
-          </ul>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.fullscreen -->
-    <div class="container">
-
-      <!-- Main component for a primary marketing message or call to action -->
-
-<div class="page-header">
-  <h1><span class="orange1">We are Skipeat,</span> nice to meet you.</h1>
+<a class="navbar-brand" href="index.html">
+<img src="img/logo.svg" height="34px">
+</a>
 </div>
-    </div> <!-- /container -->
+
+<div id="navbar" class="navbar-collapse collapse">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="about.html">About</a></li>
+<li><a href="login.html">Accedi</a></li>
+<li><a href="signup.html">Registrati</a></li>
+</ul>
+</div><!--/.nav-collapse -->
+</div>
+</nav>
+
+
+
+<!-- FULLSCREEN MODAL CODE (.fullscreen) -->
+<div class="modal fade fullscreen" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" aria-hidden="true">
+<div class="modal-dialog visible-xs">
+<div class="modal-content" style="color:#fff;">
+<div class="modal-header" style="border:0;">
+<button type="button" class="close orange1" data-dismiss="modal" aria-hidden="true">
+<i class="fa fa-times-thin fa-2x" aria-hidden="true"></i>
+</button>
+<h4 class="modal-title text-center">
+<span class="sr-only">main navigation</span>
+</h4>
+</div>
+<div class="modal-body">
+<ul style="list-style-type:none;">
+<li><a href="index.html">Home</a></li>
+<hr>
+<li><a href="about.html">About</a></li>
+<li><a href="login.html">Accedi</a></li>
+<li><a href="signup.html">Registrati</a></li>
+<hr>
+</ul>
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.fullscreen -->
+<div class="container">
+<div class="page-header">
+<h1><span class="orange1">We are Skipeat,</span> nice to meet you.</h1>
+</div>
+</div> <!-- /container -->
+
 <div class="container hidden-xs">
 <table class="table table-bordered">
-    <tr>
-      <th class="col-md-5 col-xs-5"><div class="orange1">Dove</div>
-      <input type="text" placeholder="Indirizzo">
-      
-      </input>
-      </th>
-            <th class="col-md-5 col-xs-5" style="position: relative"><div class="orange1">Quando</div>
-      <input type='text' id='datetimepicker4' placeholder="Data"/>
-      
-      </input>
-      </th>
-      <th class="col-md-1 col-xs-2"><div class="orange1">Ospiti</div>
-      <input type="text" placeholder="Quanti?">
-                    <th class="input-group-addon text-center align-middle"><a class="reset" href="search.html"><span class="glyphicon glyphicon-search"></span></a></th>
-      </input>
-      </th>
-              
-    </tr>
+<tr>
+<th class="col-md-5 col-xs-5">
+<div class="orange1">Dove</div>
+<input type="text" name="address" placeholder="Indirizzo" style="width: 100%;">
+<input type="hidden" name="coordinates">
+</th>
+
+<th class="col-md-5 col-xs-5" style="position: relative">
+<div class="orange1">Quando</div>
+<input type='text' id='datetimepicker4' placeholder="Data"/>
+</th>
+
+<th class="col-md-1 col-xs-2">
+<div class="orange1">Ospiti</div>
+<input type="text" placeholder="Quanti?">
+
+<th class="input-group-addon text-center align-middle">
+<a class="reset" href="search.html">
+<span class="glyphicon glyphicon-search"></span>
+</a>
+</th>
+</th>
+</tr>
 </table>
 </div>
+
 <div class="container">
 <div class="row visible-xs">
-  <div class="col-md-6">
-      <form class="navbar-form">
-        <div class="form-group" style="display:inline;">
-          <div class="input-group">
-            <a data-toggle="modal" data-target="#searchModal"><input class="form-control" type="text" placeholder="Ovunque · Qualsiasi momento · 1 Ospite"></a>
-            <span class="input-group-addon"><a class="reset" href="search.html"><span class="glyphicon glyphicon-search"></span></a></span>
-          </div>
-        </div>
-      </form>
+<div class="col-md-6">
+<form class="navbar-form">
+<div class="form-group" style="display:inline;">
+<div class="input-group">
+<a data-toggle="modal" data-target="#searchModal">
+<input class="form-control" type="text" placeholder="Ovunque · Qualsiasi momento · 1 Ospite">
+</a>
+
+<span class="input-group-addon">
+<a class="reset" href="search.html">
+<span class="glyphicon glyphicon-search"></span>
+</a>
+</span>
+</div>
+</div>
+</form>
 </div>
 </div>
 </div>
-  <div class="modal fade smallscreen" id="searchModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" aria-hidden="true">
-    <div class="modal-dialog visible-xs">
-      <div class="modal-content" style="color:#fff;">
-        <div class="modal-header" style="border:0;">
-            <button type="button" class="pull-left close orange1" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times-thin fa-2x" aria-hidden="true"></i></button>
-<button class="pull-right btn-filters"><a class="orange1 ">Azzera filtri</a></button>        </div>
- 
-        <div class="modal-body">
-            <div class="form-group">
+
+<div class="modal fade smallscreen" id="searchModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" aria-hidden="true">
+<div class="modal-dialog visible-xs">
+<div class="modal-content" style="color:#fff;">
+<div class="modal-header" style="border:0;">
+<button type="button" class="pull-left close orange1" data-dismiss="modal" aria-hidden="true">
+<i class="fa fa-times-thin fa-2x" aria-hidden="true"></i>
+</button>
+<a class="pull-right">Azzera filtri</a>
+</div>
+<div class="modal-body">
+<div class="form-group">
 <label style="color:#333;" for="usr">Dove</label>
-<input class="form-control" type="text">
+<input class="form-control" name="address" type="text">
+<input type="hidden" name="coordinates">
 </div>
+
 <div class="form-group" style="position: relative;">
 <label style="color:#333;" for="usr">Data </label>
 <input class="form-control">
 </div>
-           <div class="form-group">
-<label style="color:#333;"  for="usr">Quanti</label>
+
+<div class="form-group">
+<label style="color:#333;" for="usr">Quanti</label>
 <input class="form-control" type="text">
 </div>
-
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.fullscreen --><!-- /.fullscreen -->
+</div>
+</div><!-- /.modal-content -->
+</div><!-- /.modal-dialog -->
+</div><!-- /.fullscreen -->
 
 <div class="wide">
 </div>
@@ -144,106 +174,106 @@
 <!-- Footer -->
 <!-- Copy on all pages -->
 <div class="visible-xs panel-group" id="accordion">
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-          Ristoranti
-        </a>
-      </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse">
-      <div class="panel-body">
-        <li>Pizzeria</li>
-        <li>Tailandese</li>
-        <li>Cinese</li>
-        <li>Tutte le cucine</li>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+Ristoranti
+</a>
+</h4>
+</div>
+<div id="collapseOne" class="panel-collapse collapse">
+<div class="panel-body">
+<li>Pizzeria</li>
+<li>Tailandese</li>
+<li>Cinese</li>
+<li>Tutte le cucine</li>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
 Città
-        </a>
-      </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse">
-      <div class="panel-body">
-        <li>Milano</li>
-        <li>Tutte le città</li>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-Aiuto        </a>
-      </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse">
-      <div class="panel-body">
-          <li>Contattaci</li>
-        <li>Lavora con noi</li>
-        <li>Partnership</li>
-      </div>
-    </div>
-  </div>
-    
-    <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-App        </a>
-      </h4>
-    </div>
-    <div id="collapseFour" class="panel-collapse collapse">
-      <div class="panel-body">
-          <li>Coming soon</li>
-      </div>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-Follow Us   
-      </h4>
-    </div>
+</a>
+</h4>
 </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
-Skipeat inc.   
-      </h4>
-    </div>
+<div id="collapseTwo" class="panel-collapse collapse">
+<div class="panel-body">
+<li>Milano</li>
+<li>Tutte le città</li>
 </div>
-  <div class="panel panel-default">
-    <div class="panel-heading">
-      <h4 class="panel-title">
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+Aiuto </a>
+</h4>
+</div>
+<div id="collapseThree" class="panel-collapse collapse">
+<div class="panel-body">
+<li>Contattaci</li>
+<li>Lavora con noi</li>
+<li>Partnership</li>
+</div>
+</div>
+</div>
+
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+<a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+App </a>
+</h4>
+</div>
+<div id="collapseFour" class="panel-collapse collapse">
+<div class="panel-body">
+<li>Coming soon</li>
+</div>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+Follow Us
+</h4>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+Skipeat inc.
+</h4>
+</div>
+</div>
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
 Hai bisogno di aiuto?
-      </h4>
-    </div>
+</h4>
+</div>
 </div>
 </div>
 
 <div class="container margin-top hidden-xs">
- 
-  <div class="row">
-    <div class="col-sm-3  hidden-xs"><h4 class="orange1">Ristoranti</h4></div>
-    <div class="col-sm-3  hidden-xs"><h4 class="orange1">Città</h4></div>
-    <div class="col-sm-3  hidden-xs"><h4 class="orange1">Aiuto</h4></div>
-    <div class="col-sm-3  hidden-xs"><h4 class="orange1">App</h4></div>
-  </div>
-      <hr>
+
+<div class="row">
+<div class="col-sm-3 hidden-xs"><h4 class="orange1">Ristoranti</h4></div>
+<div class="col-sm-3 hidden-xs"><h4 class="orange1">Città</h4></div>
+<div class="col-sm-3 hidden-xs"><h4 class="orange1">Aiuto</h4></div>
+<div class="col-sm-3 hidden-xs"><h4 class="orange1">App</h4></div>
+</div>
+<hr>
 <div class="row">
 <div class="col-sm-3 hidden-xs">
 <li>Tailandese</li>
 <li>Cinese</li>
 <li>Tutte le cucine</li>
 </div>
-  
+
 <div class="col-sm-3 hidden-xs">
 <li>Milano</li>
 <li>Tutte le città</li>
@@ -251,39 +281,70 @@ Hai bisogno di aiuto?
 
 
 <div class="col-sm-3 hidden-xs">
-        <li>Contattaci</li>
-        <li>Lavora con noi</li>
-        <li>Partnership</li>
+<li>Contattaci</li>
+<li>Lavora con noi</li>
+<li>Partnership</li>
 </div>
 <div class="col-sm-3 hidden-xs">
-  <li>Coming soon</li>
+<li>Coming soon</li>
 </div>
 
 </div>
-  <hr>
+<hr>
 </div>
 
 <!-- End footer -->
 
+</div>
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/moment-with-locales.js"></script>
-    <script src="js/bootstrap-datetimepicker.js"></script>
-       <script type="text/javascript">
-            $(function () {
-  $('#datetimepicker4').datetimepicker({
-    locale:'it'});
+<script src="https://cdn.jsdelivr.net/gmap3/7.2.0/gmap3.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDSe9QhS6XgLRpemAzR57SaNLq_HPBeT0&libraries=places"></script>
+
+
+<script>
+$(function(){
+restaurantsMap.initObjects();
+restaurantsMap.initEvents();
+
+$('#datetimepicker4').datetimepicker({
+locale:'it'
 });
-        </script>
-        <script type="text/javascript">
-          $('#menuModal').on('shown.bs.modal', function() {
-       $("body.modal-open").removeAttr("style");
- });
-        </script>
-  </body>
+
+$('#menuModal').on('shown.bs.modal', function() {
+$("body.modal-open").removeAttr("style");
+});
+});
+
+var restaurantsMap = {
+autoComplete:null,
+initObjects: function(){
+restaurantsMap.autoComplete = new google.maps.places.Autocomplete($('input[name=address]')[0]);
+},
+initEvents: function(){
+google.maps.event.addListener(restaurantsMap.autoComplete, 'place_changed', function () {
+try {
+var place = restaurantsMap.autoComplete.getPlace();
+var location = place.geometry.location;
+var coordinates = JSON.stringify({lat:location.lat(),lng:location.lng()});
+
+$('input[name=coordinates]').val(coordinates);
+}
+catch (err) {
+console.log('Error with Google Maps address autocomplete API');
+}
+
+});
+}
+};
+</script>
+
+</body>
 </html>
