@@ -776,7 +776,69 @@ body.modal-open{
 }
 .restaurantlisting{
   margin-top: 20px;
-  }
+  } 
+
+.bootstrap-datetimepicker-widget td.today:before {
+  content: '';
+  display: inline-block;
+  border-left: 7px solid transparent;
+  border-bottom: 7px solid #ff4d00;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+}
+
+.bootstrap-datetimepicker-widget td span.active {
+  background-color: #ff4d00;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.bootstap-datetimepicker-widget .glyphicon{
+  color: #ff4d00;
+}
+
+.glyphicon.glyphicon-time{
+  color: #ff4d00;
+}
+
+.glyphicon.glyphicon-calendar{
+  color: #ff4d00;
+}
+
+.glyphicon.glyphicon-chevron-up{
+  color: #ff4d00;
+}
+
+.glyphicon.glyphicon-chevron-down{
+  color: #ff4d00;
+}
+
+.bootstrap-datetimepicker-widget td.today:before {
+  content: '';
+  display: inline-block;
+  border-left: 7px solid transparent;
+  border-bottom: 7px solid #ff4d00;
+  border-top-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+}
+
+.bootstrap-datetimepicker-widget td.active,
+.bootstrap-datetimepicker-widget td.active:hover {
+  background-color: #ff4d00;
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.bootstrap-datetimepicker-widget table td.active, .bootstrap-datetimepicker-widget table td.active:hover {
+    background-color: #ff4d00;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+}
+
   @media (max-width: 480px){
     .fullscreen .modal-body ul {
       padding: 30px 0 0 0;
