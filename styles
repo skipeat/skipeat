@@ -706,10 +706,10 @@ body.modal-open{
     cursor: default;
     background-color: white;
     border: 0px solid #ddd;
-    border-bottom-color: #ff7400 ;
+    border-bottom-color: none;
     border-bottom: 1px;
     border-bottom-style: solid;
-  }
+}
 
 .nav-tabs>li>a {
     margin-right: 2px;
@@ -728,20 +728,6 @@ body.modal-open{
     text-decoration: none;
     background-color: #fff;
 }
-
-.btn-order{
-    font-weight: 300;
-    padding: 7px;
-    color:white;
-    background-color: #ff7400;
-    margin-top: 32px;
-    margin-bottom: 32px;
-    border-radius: 9px;
-    width: 100px;
-    float: left;
-    margin-right: 25px;
-}
-
 
 .nav-tabs>li>a:hover {
     border-color: none;
@@ -772,11 +758,8 @@ body.modal-open{
 }
 
 .itemprice{
-  color: #333
+  color: #333;
 }
-.restaurantlisting{
-  margin-top: 20px;
-  }
   @media (max-width: 480px){
     .fullscreen .modal-body ul {
       padding: 30px 0 0 0;

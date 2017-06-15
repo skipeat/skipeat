@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Skipeat | We are Skipeat, it's nice to meet you.</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="navbar-fixed-top.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.css" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
+ <script src="https://use.fontawesome.com/9bbc3d9a0a.js"></script>     
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="modal" data-target="#menuModal" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <i class="orange1 fa fa-angle-down" aria-hidden="true"></i>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/logo.svg" height="34px"></a>
+          </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Accedi</a></li>
+            <li><a href="signup.html">Registrati</a></li>
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>
+
+    </nav>
+
+  <!-- FULLSCREEN MODAL CODE (.fullscreen) -->
+  <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" aria-hidden="true">
+    <div class="modal-dialog visible-xs">
+      <div class="modal-content" style="color:#fff;">
+        <div class="modal-header" style="border:0;">
+            <button type="button" class="close orange1" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times-thin fa-2x" aria-hidden="true"></i></button> 
+            <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+        </div>
+        <div class="modal-body">
+          <ul style="list-style-type:none;">
+            <li><a href="index.html">Home</a></li>
+            <hr>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Accedi</a></li>
+            <li><a href="signup.html">Registrati</a></li>
+                        <hr>
+          </ul>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.fullscreen -->
+
+  <div class="modal fade smallscreen" id="searchModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" aria-hidden="true">
+    <div class="modal-dialog visible-xs">
+      <div class="modal-content" style="color:#fff;">
+        <div class="modal-header" style="border:0;">
+            <button type="button" class="pull-left close orange1" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times-thin fa-2x" aria-hidden="true"></i></button>
+<button class="pull-right btn-filters"><a class="orange1 ">Azzera filtri</a></button>        </div>
+ 
+        <div class="modal-body">
+            <div class="form-group">
+<label style="color:#333;" for="usr">Dove</label>
+<input class="form-control" type="text">
+</div>
+<div class="form-group" style="position: relative;">
+<label style="color:#333;" for="usr">Data </label>
+<input class="form-control">
+</div>
+           <div class="form-group">
+<label style="color:#333;"  for="usr">Quanti</label>
+<input class="form-control" type="text">
+</div>
+
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.fullscreen --><!-- /.fullscreen -->
+
+<div class="widepizzeria">
+</div>
+<div class="container">
+<div class="row restaurantlisting">
+  <div class="col-xs-12">
+  <h3>
+    Ristorante Pizzeria Peter Pan
+  </h3>
+  <h4 class="orange1">
+  Pizzeria - Hambuger - Cucina Mediteranea
+  </h4>
+  <div class="btn-order bgorange white text-center center-block">Take Away</div>
+    <div class="btn-order bgorange white text-center center-block">Eat In</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12"><hr></div>
+</div>
+<div class="row">
+
+  <!-- Nav tabs -->
+<ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active orange1"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Menù</a></li>
+    <li role="presentation" class="orange1"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Carrello</a></li>
+    <li role="presentation" class="orange1"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Recensioni</a></li>
+    <li role="presentation" class="orange1"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Info</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">
+    <div class="container">
+    <div class="row">
+    <div class="col-xs-12 menucategorylisting"> <!-- category1 -->
+    <h3 class="menucategory">Pizze Rosse</h3>
+    <hr>
+    <div class="menuitemlisting">
+    <div class="menuitem orange1">Pizza Rossa Marinara<span class="pull-right"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+</span><span class="pull-right itemprice">€3,50</span></div>
+    <div class="menuitemdescription">Pomodoro, aglio, olio, origano</div>
+    </div>
+    <div class="menuitemlisting">
+    <div class="menuitem orange1">Pizza Rossa Marinara<span class="pull-right"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+</span><span class="pull-right itemprice">€3,50</span></div>
+    <div class="menuitemdescription">Pomodoro, aglio, olio, origano</div>
+    </div>
+    <div class="menuitemlisting">
+    <div class="menuitem orange1">Pizza Rossa Marinara<span class="pull-right"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+</span><span class="pull-right itemprice">€3,50</span></div>
+    <div class="menuitemdescription">Pomodoro, aglio, olio, origano</div>
+    </div>
+    <div class="menuitemlisting">
+    <div class="menuitem orange1">Pizza Rossa Marinara<span class="pull-right"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+</span><span class="pull-right itemprice">€3,50</span></div>
+    <div class="menuitemdescription">Pomodoro, aglio, olio, origano</div>
+    </div>
+    </div> <!-- end category1 -->
+        <div class="col-xs-12 menucategorylisting"> <!-- category2 -->
+    <h3 class="menucategory">Hamburger</h3>
+    <hr>
+    <div class="menuitemlisting">
+    <div class="menuitem orange1">Classic Cheeseburger<span class="pull-right"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+</span><span class="pull-right itemprice">€3,50</span></div>
+    <div class="menuitemdescription">Carne hamburger, formaggio, insalata, cipolla</div>
+    </div>
+<div class="menuitemlisting">
+    <div class="menuitem orange1">Classic Cheeseburger<span class="pull-right"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+</span><span class="pull-right itemprice">€3,50</span></div>
+    <div class="menuitemdescription">Carne hamburger, formaggio, insalata, cipolla</div>
+    </div>
+    <div class="menuitemlisting">
+    <div class="menuitem orange1">Classic Cheeseburger<span class="pull-right"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+</span><span class="pull-right itemprice">€3,50</span></div>
+    <div class="menuitemdescription">Carne hamburger, formaggio, insalata, cipolla</div>
+    </div>
+    <div class="menuitemlisting">
+    <div class="menuitem orange1">Classic Cheeseburger<span class="pull-right"><i class="fa fa-plus-circle" aria-hidden="true"></i>
+</span><span class="pull-right itemprice">€3,50</span></div>
+    <div class="menuitemdescription">Carne hamburger, formaggio, insalata, cipolla</div>
+    </div>
+    </div> <!-- end category1 -->
+    </div>
+    </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="profile"></div>
+    <div role="tabpanel" class="tab-pane" id="messages"></div>
+    <div role="tabpanel" class="tab-pane" id="settings"></div>
+  </div>
+
+</div>
+</div>
+</div>
+<!-- Footer -->
+<!-- Copy on all pages -->
+<div class="visible-xs panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          Ristoranti
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+      <div class="panel-body">
+        <li>Pizzeria</li>
+        <li>Tailandese</li>
+        <li>Cinese</li>
+        <li>Tutte le cucine</li>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+Città
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        <li>Milano</li>
+        <li>Tutte le città</li>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+Aiuto        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+          <li>Contattaci</li>
+        <li>Lavora con noi</li>
+        <li>Partnership</li>
+      </div>
+    </div>
+  </div>
+    
+    <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+App        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse">
+      <div class="panel-body">
+          <li>Coming soon</li>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+Follow Us   
+      </h4>
+    </div>
+</div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+Skipeat inc.   
+      </h4>
+    </div>
+</div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+Hai bisogno di aiuto?
+      </h4>
+    </div>
+</div>
+</div>
+
+<div class="container margin-top hidden-xs">
+ 
+  <div class="row">
+    <div class="col-sm-3  hidden-xs"><h4 class="orange1">Ristoranti</h4></div>
+    <div class="col-sm-3  hidden-xs"><h4 class="orange1">Città</h4></div>
+    <div class="col-sm-3  hidden-xs"><h4 class="orange1">Aiuto</h4></div>
+    <div class="col-sm-3  hidden-xs"><h4 class="orange1">App</h4></div>
+  </div>
+      <hr>
+<div class="row">
+<div class="col-sm-3 hidden-xs">
+<li>Tailandese</li>
+<li>Cinese</li>
+<li>Tutte le cucine</li>
+</div>
+  
+<div class="col-sm-3 hidden-xs">
+<li>Milano</li>
+<li>Tutte le città</li>
+</div>
+
+
+<div class="col-sm-3 hidden-xs">
+        <li>Contattaci</li>
+        <li>Lavora con noi</li>
+        <li>Partnership</li>
+</div>
+<div class="col-sm-3 hidden-xs">
+  <li>Coming soon</li>
+</div>
+
+</div>
+  <hr>
+</div>
+</div>
+<!-- End footer -->
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/moment-with-locales.js"></script>
+    <script src="js/bootstrap-datetimepicker.js"></script>
+       <script type="text/javascript">
+            $(function () {
+  $('#datetimepicker4').datetimepicker({
+    locale:'it'});
+});
+        </script>
+        <script type="text/javascript">
+          $('#menuModal').on('shown.bs.modal', function() {
+       $("body.modal-open").removeAttr("style");
+ });
+        </script>
+  </body>
+</html>
