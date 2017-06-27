@@ -18,6 +18,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
 <link href="css/navbar-fixed-top.css" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet">
+<link href="css/order-restaurant.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
 
 
@@ -123,15 +124,15 @@ window.Laravel = {"csrfToken":"Bd3jfZxwi0qpbQWg3KLNusklP6yO3qHjl5AUakrl"};
 
   <!-- Nav tabs -->
 <ul class="nav nav-tabs" role="tablist">
-    <li role="presentation" class="active orange1"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Menù</a></li>
-    <li role="presentation" class="orange1"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Carrello</a></li>
-    <li role="presentation" class="orange1"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Recensioni</a></li>
-    <li role="presentation" class="orange1"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Info</a></li>
+    <li role="presentation" class="active orange1"><a href="#ordermenu" aria-controls="ordermenu" role="tab" data-toggle="tab">Menù</a></li>
+    <li role="presentation" class="orange1"><a href="#cart" aria-controls="cart" role="tab" data-toggle="tab">Carrello</a></li>
+    <li role="presentation" class="orange1"><a href="#review" aria-controls="review" role="tab" data-toggle="tab">Recensioni</a></li>
+    <li role="presentation" class="orange1"><a href="#info" aria-controls="info" role="tab" data-toggle="tab">Info</a></li>
   </ul>
 
   <!-- Tab panes -->
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="home">
+    <div role="tabpanel" class="tab-pane active" id="ordermenu">
     <div class="container">
     <div class="row">
     <div class="col-xs-12 menucategorylisting"> <!-- category1 -->
@@ -185,9 +186,87 @@ window.Laravel = {"csrfToken":"Bd3jfZxwi0qpbQWg3KLNusklP6yO3qHjl5AUakrl"};
     </div>
     </div>
     </div>
-    <div role="tabpanel" class="tab-pane" id="profile"></div>
-    <div role="tabpanel" class="tab-pane" id="messages"></div>
-    <div role="tabpanel" class="tab-pane" id="settings"></div>
+    <div role="tabpanel" class="tab-pane" id="cart">
+    <div class="container">
+    <h3>Totale Ordine<span class="pull-right orange1">€ 0,00</span></h3>
+    <hr>
+    <div class="menuitemlisting">
+    <div class="menuitem orange1">Pizza Rossa Marinara<span class="pull-right"><i class="fa fa-minus-circle" aria-hidden="true"></i>
+</span><span class="pull-right itemprice">€3,50</span></div>
+    <div class="menuitemdescription">Pomodoro, aglio, olio, origano</div>
+    </div>
+    <div class="menuitemlisting">
+    <div class="menuitem orange1">Pizza Rossa Marinara<span class="pull-right"><i class="fa fa-minus-circle" aria-hidden="true"></i>
+</span><span class="pull-right itemprice">€3,50</span></div>
+    <div class="menuitemdescription">Pomodoro, aglio, olio, origano</div>
+    </div>
+    <div class="menuitemlisting">
+    <div class="menuitem orange1">Pizza Rossa Marinara<span class="pull-right"><i class="fa fa-minus-circle" aria-hidden="true"></i>
+</span><span class="pull-right itemprice">€3,50</span></div>
+    <div class="menuitemdescription">Pomodoro, aglio, olio, origano</div>
+    </div>
+    </div>  
+    </div>
+    <div role="tabpanel" class="tab-pane" id="review">
+    <div class="container">
+        <h3>276 Recensioni<span class="pull-right orange1">Voto 4.76</span></h3>
+    <hr>
+    <div class="reviewlisting">
+<div class="clearfix">
+    <h4 class="orange1 pull-left">Andrea</h4><span class="pull-right">22/04/17</span></div>
+    <div class="row">
+<div class="col-xs-8 reviewtext">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ipsum ea velit veniam dolor, omnis ducimus.
+    </div>
+    <div class="col-xs-4 rating">
+    <div class="clearfix">
+    <i class="glyphicon glyphicon-star pull-right orange1"></i>
+    <i class="glyphicon glyphicon-star pull-right orange1"></i>
+    <i class="glyphicon glyphicon-star pull-right orange1"></i>
+    <i class="glyphicon glyphicon-star pull-right orange1"></i>
+    </div>
+    </div>
+    </div>
+    <hr>
+    </div>
+        <div class="reviewlisting">
+<div class="clearfix">
+    <h4 class="orange1 pull-left">Nicola</h4><span class="pull-right">22/04/17</span></div>
+    <div class="row">
+<div class="col-xs-8 reviewtext">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ipsum ea velit veniam dolor, omnis ducimus.
+    </div>
+    <div class="col-xs-4 rating">
+    <div class="clearfix">
+    <i class="glyphicon glyphicon-star pull-right orange1"></i>
+    <i class="glyphicon glyphicon-star pull-right orange1"></i>
+    <i class="glyphicon glyphicon-star pull-right orange1"></i>
+    </div>
+    </div>
+    </div>
+    <hr>
+    </div>
+            <div class="reviewlisting">
+<div class="clearfix">
+    <h4 class="orange1 pull-left">Giorgia</h4><span class="pull-right">22/04/17</span></div>
+    <div class="row">
+<div class="col-xs-8 reviewtext">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur ipsum ea velit veniam dolor, omnis ducimus.
+    </div>
+    <div class="col-xs-4 rating">
+    <div class="clearfix">
+    <i class="glyphicon glyphicon-star pull-right orange1"></i>
+    <i class="glyphicon glyphicon-star pull-right orange1"></i>
+    <i class="glyphicon glyphicon-star pull-right orange1"></i>
+    </div>
+    </div>
+    </div>
+    <hr>
+    </div>
+    </div> 
+    </div>
+    </div>
+    <div role="tabpanel" class="tab-pane" id="info"></div>
   </div>
 
 </div>
