@@ -113,27 +113,37 @@ window.Laravel = {"csrfToken":"Bd3jfZxwi0qpbQWg3KLNusklP6yO3qHjl5AUakrl"};
   <h4 class="orange1">
   Pizzeria - Hambuger - Cucina Mediteranea
   </h4>
-  <div class="btn-order bgorange white text-center center-block">Take Away</div>
-    <div class="btn-order bgorange white text-center center-block">Eat In</div>
+  <div class="btn-order bgorange white text-center hidden-md hidden-lg">Take Away</div>
+    <div class="btn-order bgorange white text-center hidden-md hidden-lg">Eat In</div>
 </div>
 </div>
 <div class="row">
 <div class="col-xs-12"><hr></div>
 </div>
 <div class="row">
+  <div class="visible-md visible-lg col-md-2">
+  <ul class="nav nav-tabs">
+<li class="orange1 sectiontitle">Categorie</li>
+</ul>
+<hr>
+  
+  </div>
 
+
+  <!-- Tab panes -->
   <!-- Nav tabs -->
+
+<div class="col-md-6">
+
+
 <ul class="nav nav-tabs" role="tablist">
     <li role="presentation" class="active orange1"><a href="#ordermenu" aria-controls="ordermenu" role="tab" data-toggle="tab">Menù</a></li>
     <li role="presentation" class="orange1"><a href="#cart" aria-controls="cart" role="tab" data-toggle="tab">Carrello</a></li>
     <li role="presentation" class="orange1"><a href="#review" aria-controls="review" role="tab" data-toggle="tab">Recensioni</a></li>
     <li role="presentation" class="orange1"><a href="#info" aria-controls="info" role="tab" data-toggle="tab">Info</a></li>
   </ul>
-
-  <!-- Tab panes -->
   <div class="tab-content">
-    <div role="tabpanel" class="tab-pane active" id="ordermenu">
-    <div class="container">
+    <div role="tabpanel" class="tab-pane active " id="ordermenu">
     <div class="row">
     <div class="col-xs-12 menucategorylisting"> <!-- category1 -->
     <h3 class="menucategory">Pizze Rosse</h3>
@@ -184,10 +194,8 @@ window.Laravel = {"csrfToken":"Bd3jfZxwi0qpbQWg3KLNusklP6yO3qHjl5AUakrl"};
     </div>
     </div> <!-- end category1 -->
     </div>
-    </div>
-    </div>
+    </div> 
     <div role="tabpanel" class="tab-pane" id="cart">
-    <div class="container">
     <h3>Totale Ordine<span class="pull-right orange1">€ 0,00</span></h3>
     <hr>
     <div class="menuitemlisting">
@@ -205,10 +213,8 @@ window.Laravel = {"csrfToken":"Bd3jfZxwi0qpbQWg3KLNusklP6yO3qHjl5AUakrl"};
 </span><span class="pull-right itemprice">€3,50</span></div>
     <div class="menuitemdescription">Pomodoro, aglio, olio, origano</div>
     </div>
-    </div>  
     </div>
     <div role="tabpanel" class="tab-pane" id="review">
-    <div class="container">
         <h3>276 Recensioni<span class="pull-right orange1">Voto 4.76</span></h3>
     <hr>
     <div class="reviewlisting">
@@ -262,13 +268,36 @@ window.Laravel = {"csrfToken":"Bd3jfZxwi0qpbQWg3KLNusklP6yO3qHjl5AUakrl"};
     </div>
     </div>
     <hr>
-    </div>
     </div> 
-    </div>
     </div>
     <div role="tabpanel" class="tab-pane" id="info"></div>
   </div>
+  </div>
+  <div class="visible-md visible-lg col-md-4">
+ <ul class="nav nav-tabs">
+<li class="orange1 sectiontitle">Totale Ordine</li>
+</ul>
+<hr>
+<div class="btn-order bgorange white text-center">Take Away</div>
+    <div class="btn-order bgorange white text-center">Eat In</div>
 
+    <div class="menuitemlisting">
+    <div class="menuitem orange1">Pizza Rossa Marinara<span class="pull-right"><i class="fa fa-minus-circle" aria-hidden="true"></i>
+</span><span class="pull-right itemprice">€3,50</span></div>
+    <div class="menuitemdescription">Pomodoro, aglio, olio, origano</div>
+    </div>
+    <div class="menuitemlisting">
+    <div class="menuitem orange1">Pizza Rossa Marinara<span class="pull-right"><i class="fa fa-minus-circle" aria-hidden="true"></i>
+</span><span class="pull-right itemprice">€3,50</span></div>
+    <div class="menuitemdescription">Pomodoro, aglio, olio, origano</div>
+    </div>
+    <div class="menuitemlisting">
+    <div class="menuitem orange1">Pizza Rossa Marinara<span class="pull-right"><i class="fa fa-minus-circle" aria-hidden="true"></i>
+</span><span class="pull-right itemprice">€3,50</span></div>
+    <div class="menuitemdescription">Pomodoro, aglio, olio, origano</div>
+    </div>
+</div>
+  </div>
 </div>
 </div>
 </div>

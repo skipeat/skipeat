@@ -97,7 +97,6 @@ input[type="checkbox"] .orangecheckbox:checked + label{
   background-image:url('../img/pizza.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  margin-top: 40px;
   background-size: cover;
 }
 
@@ -735,7 +734,6 @@ body.modal-open{
     margin-bottom: 32px;
     border-radius: 9px;
     width: 100px;
-    float: left;
     margin-right: 25px;
 }
 
