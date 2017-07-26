@@ -31,6 +31,18 @@
 ul.categories{
 	padding: 0px;
 }
+
+ul.times{
+	padding: 0;
+}
+
+ul.times span{
+	padding-right: 15px;
+}
+
+ul.times li{
+	list-style-type:none;
+}
 .categories li{
 	padding-top: 15px;
 	font-size: 16px;
@@ -69,5 +81,9 @@ ul.categories{
 
 #ordermenu::-webkit-scrollbar { 
     display: none; 
+}
+
+h3#category1.menucategory{
+	margin-top: 0;
 }
 
