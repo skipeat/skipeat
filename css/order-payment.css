@@ -1,0 +1,10 @@
+.margin-auto{
+	margin: 0 auto;
+	float: none;
+}
+
+.paymentsummary{
+	margin-top: 48px;
+	border: 1px solid;
+}
+
