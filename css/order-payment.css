@@ -28,6 +28,12 @@ h4.panel-title a{
 	padding-right: 0;
 }
 
+.form-select{
+	width: 90px;
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
 .no-padding{
 	padding-left: 15px;
 	padding-right: 15px;
