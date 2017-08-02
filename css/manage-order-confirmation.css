@@ -1,0 +1,43 @@
+body{
+	background-color: orange;
+}
+
+.order-popup{
+	background-color: white;
+	margin: 0 auto;
+	float: none;
+	height: 550px;
+	padding: 30px;
+}
+
+.order-header{
+	padding-top: 15px;
+}
+
+ul{
+	padding: 0;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.btn-login{
+margin-top: 40px;
+}
+
+.note-order{
+	height: 50px;
+}
+
+.notes{
+	margin-top: 32px;
+}
+
+.btn-white{
+	background-color: white;
+	color: #333;
+	border: 1px solid #333;
+}
+
+.btn-white:hover{
+	color: #333;
+}

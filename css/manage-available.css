@@ -1,0 +1,39 @@
+ .toggle.ios, .toggle-on.ios, .toggle-off.ios { border-radius: 20px; }
+  .toggle.ios .toggle-handle { border-radius: 20px; }
+
+
+span{
+	margin-left: 15px;
+}
+
+.toggle{
+	margin-left: 15px;
+}
+
+.available-box{
+	border: 1px solid #333;
+	height: 80px;
+	line-height: 80px;
+	margin-bottom: 15px;
+	margin-top: 30px;
+}
+
+
+a.order-nav:hover{
+	color: #ff7400;
+
+}
+
+a.order-nav:visited{
+	color: #ff7400;
+
+}
+
+a.order-nav{
+	color: #333;
+
+}
+
+.restaurant-title{
+	font-weight: 500;
+}
