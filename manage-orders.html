@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- CSRF Token -->
+<meta name="csrf-token" content="Bd3jfZxwi0qpbQWg3KLNusklP6yO3qHjl5AUakrl">
+
+<title>Skipeat | We are Skipeat, it's nice to meet you.
+</title>
+
+<!-- Bootstrap Styles -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Custom styles for this template -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+<link href="css/navbar-fixed-top.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+<link href="css/manage-orders.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
+
+
+<!-- Scripts -->
+<script src="https://use.fontawesome.com/9bbc3d9a0a.js"></script>
+<script>
+window.Laravel = {"csrfToken":"Bd3jfZxwi0qpbQWg3KLNusklP6yO3qHjl5AUakrl"};
+</script>
+</head>
+
+  <body>
+
+   <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="modal" data-target="#menuModal" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <i class="orange1 fa fa-angle-down" aria-hidden="true"></i>
+          </button>
+          <a class="navbar-brand" href="index.html"><img src="img/logo.svg" height="34px"></a>
+          </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Accedi</a></li>
+            <li><a href="signup.html">Registrati</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+
+    </nav>
+
+  <!-- FULLSCREEN MODAL CODE (.fullscreen) -->
+  <div class="modal fade fullscreen" id="menuModal"  tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-backdrop="false" aria-hidden="true">
+    <div class="modal-dialog visible-xs">
+      <div class="modal-content" style="color:#fff;">
+        <div class="modal-header" style="border:0;">
+            <button type="button" class="close orange1" data-dismiss="modal" aria-hidden="true"><i class="fa fa-times-thin fa-2x" aria-hidden="true"></i></button> 
+            <h4 class="modal-title text-center"><span class="sr-only">main navigation</span></h4>
+        </div>
+        <div class="modal-body">
+          <ul style="list-style-type:none;">
+            <li><a href="index.html">Home</a></li>
+            <hr>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Accedi</a></li>
+            <li><a href="signup.html">Registrati</a></li>
+          </ul>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.fullscreen -->
+
+
+<div class="container">
+<div class="row">
+<div class="col-lg-12">
+<p><h1 class="orange1 restaurant-title">Ristorante di Pino</h1></p>
+<p><h2> Tavola Calda & Lounge Bar</h2></p>
+</div>
+</div>
+<div class="row">
+<div class="col-lg-3">
+<div class="col-lg-12 box">
+<h3>Live</h3>
+</div>
+<div class="col-lg-12 box">
+<h3>Storico</h3>
+</div>
+</div>
+<div class="col-lg-3">
+<div class="col-lg-12 box">
+<h3>In Arrivo</h3>
+</div>
+<div class="order-box clearfix">
+<div class="time bgorange1 pull-left text-center">30'</div>
+<div class="order-name pull-left">Antonia B.</div>
+<div class="time orange1 pull-left text-center">X</div>
+<div class="time bgorange1 pull-left text-center white">1</div>
+</div>
+<div class="order-box clearfix">
+<div class="time bgorange1 pull-left text-center">30'</div>
+<div class="order-name pull-left">Antonia B.</div>
+<div class="time orange1 pull-left text-center">O</div>
+<div class="time bgorange1 pull-left text-center"><i class="fa fa-arrow-circle-right white" aria-hidden="true"></i>
+</div>
+</div>
+<div class="order-box clearfix">
+<div class="time bgorange1 pull-left text-center">30'</div>
+<div class="order-name pull-left">Antonia B.</div>
+<div class="time orange1 pull-left text-center">0</div>
+<div class="time bgorange1 pull-left text-center white">2</div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+</div>
+
+<div class="col-lg-3">
+<div class="col-lg-12 box">
+<h3>A Breve</h3>
+</div>
+<div class="order-box clearfix">
+<div class="time bgorange1 pull-left text-center">30'</div>
+<div class="order-name pull-left">Antonia B.</div>
+<div class="time orange1 pull-left text-center">X</div>
+<div class="time bgorange1 pull-left text-center white">1</div>
+</div>
+<div class="order-box clearfix">
+<div class="time bgorange1 pull-left text-center">30'</div>
+<div class="order-name pull-left">Antonia B.</div>
+<div class="time orange1 pull-left text-center">O</div>
+<div class="time bgorange1 pull-left text-center"><i class="fa fa-arrow-circle-right white" aria-hidden="true"></i>
+</div>
+</div>
+<div class="order-box clearfix">
+<div class="time bgorange1 pull-left text-center">30'</div>
+<div class="order-name pull-left">Antonia B.</div>
+<div class="time orange1 pull-left text-center">0</div>
+<div class="time bgorange1 pull-left text-center white">2</div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+</div>
+<div class="col-lg-3">
+<div class="col-lg-12 box">
+<h3>Take Away</h3>
+</div>
+<div class="order-box clearfix">
+<div class="time bgorange1 pull-left text-center">30'</div>
+<div class="order-name pull-left">Antonia B.</div>
+<div class="time orange1 pull-left text-center">O</div>
+<div class="time bgorange1 pull-left text-center"><i class="fa fa-arrow-circle-right white" aria-hidden="true"></i>
+</div>
+</div>
+<div class="order-box clearfix">
+<div class="time bgorange1 pull-left text-center">30'</div>
+<div class="order-name pull-left">Antonia B.</div>
+<div class="time orange1 pull-left text-center">O</div>
+<div class="time bgorange1 pull-left text-center"><i class="fa fa-arrow-circle-right white" aria-hidden="true"></i>
+</div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="col-lg-12 box">
+<h3>Dine In</h3>
+</div>
+<div class="order-box clearfix">
+<div class="time bgorange1 pull-left text-center">30'</div>
+<div class="order-name pull-left">Antonia B.</div>
+<div class="time orange1 pull-left text-center">O</div>
+<div class="time bgorange1 pull-left text-center"><i class="fa fa-arrow-circle-right white" aria-hidden="true"></i>
+</div>
+</div>
+<div class="order-box clearfix">
+<div class="time bgorange1 pull-left text-center">30'</div>
+<div class="order-name pull-left">Antonia B.</div>
+<div class="time orange1 pull-left text-center">O</div>
+<div class="time bgorange1 pull-left text-center"><i class="fa fa-arrow-circle-right white" aria-hidden="true"></i>
+</div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+<div class="order-box clearfix">
+<div class="time  pull-left text-center"></div>
+<div class="order-name pull-left"></div>
+<div class="time orange1 pull-left text-center"></div>
+<div class="time pull-left text-center white"></div>
+</div>
+</div>
+</div>
+</div>
+
+<footer>
+<div class="container"><hr><div class="pull-left">Skipeat, Inc.</div>
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
+
+
+  </body>
+</html>

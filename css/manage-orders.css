@@ -1,0 +1,38 @@
+.restaurant-title{
+	font-weight: 500;
+}
+
+.black{
+	color: black;
+}
+
+.box{
+	border: 1px solid #000;
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+
+
+.no-padding{
+	margin: 1px;
+}
+
+.time{
+	padding: 9px;
+	width: 15%;
+	border: 1px solid #000;
+	height: 40px;
+
+}
+
+.order-name{
+	padding: 9px;
+	width: 55%;
+		border: 1px solid;
+		height: 40px;
+}
+
+.order-box{
+		font-size: 16px;
+		margin-bottom: 15px;
+}
