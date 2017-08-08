@@ -841,6 +841,10 @@ body.modal-open{
   padding-bottom: 10px;
 }
 
+textarea{
+  resize: none;
+}
+
 footer{
   height: 80px;
 }
