@@ -18,6 +18,7 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
 <link href="css/navbar-fixed-top.css" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet">
+<link href="css/signup-restaurant.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
 
 
@@ -88,11 +89,61 @@ window.Laravel = {"csrfToken":"Bd3jfZxwi0qpbQWg3KLNusklP6yO3qHjl5AUakrl"};
     <hr>
   </ul>
 </div>
-<div class="col-sm-4 col-md-4 col-lg-4 col-xs-12 login">
+<div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 login">
 <h2 class="text-center">Info generali</h2>
 <hr>
 Qui trovi le info generali del tuo ristorante.
-
+        <hr></hr>
+        <div class="form-group">
+        <label for="usr">Indirizzo Ristorante</label>
+        <input class="form-control" type="text" placeholder="Indirizzo">
+        </div>  
+        <div class="form-group">
+        <label for="usr">Telefono</label>
+        <input class="form-control" type="text" placeholder="+39 111 1111111">
+        </div>
+        <div class="form-group">
+        <label for="usr">Orari</label>
+        <div>Orario apertura</div>
+        <input class="form-control hours" type="text"></input>
+        <br>
+        <div>Orario chiusura</div>
+        <input class="form-control hours" type="text"></input>
+        </div>
+        <div class="form-group">
+        <label for="usr">Giorni apertura</label>
+        <div>
+<span class="days"><input type="checkbox">Lunedì</input></span>
+<span class="days"><input type="checkbox">Martedì</input></span>
+<span class="days"><input type="checkbox">Mercoledì</input></span>
+<span class="days"><input type="checkbox">Giovedì</input></span>
+<span class="days"><input type="checkbox">Venerdì</input></span>
+<span class="days"><input type="checkbox">Sabato</input></span>
+<span class="days"><input type="checkbox">Domenica</input></span>
+        </div>
+        <form style="margin-top: 15px;">
+        <div class="form-group">
+        <div class="clearfix">
+           <label for="usr">Prezzi</label></div>
+           <fieldset class="rating">
+    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5"></label>
+    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4"></label>
+    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3"></label>
+    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2"></label>
+    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1"></label>
+</fieldset>
+           </div>
+           <div class="clearfix"></div>
+        <div class="form-group">
+  <label for="comment">Descrizione Tipologia:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+<div class="file-upload">
+           <label for="usr">Fotografia</label>
+  <input type="file">
+  </div>
+      </form>
+    </div>
 </div>
 </div>
 
