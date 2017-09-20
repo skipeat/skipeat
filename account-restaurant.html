@@ -18,9 +18,8 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
 <link href="css/navbar-fixed-top.css" rel="stylesheet">
 <link href="css/styles.css" rel="stylesheet">
-<link href="css/admin.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700&amp;subset=devanagari,latin-ext" rel="stylesheet">
-<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
 
 <!-- Scripts -->
 <script src="https://use.fontawesome.com/9bbc3d9a0a.js"></script>
@@ -44,7 +43,7 @@ window.Laravel = {"csrfToken":"Bd3jfZxwi0qpbQWg3KLNusklP6yO3qHjl5AUakrl"};
 
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-<li><h4>Ciao, Skipeat</h4></li>
+<li><h4>Ciao, Andrea</h4></li>
 <li><h4>Aiuto?</h4></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -76,74 +75,53 @@ window.Laravel = {"csrfToken":"Bd3jfZxwi0qpbQWg3KLNusklP6yO3qHjl5AUakrl"};
 
 <div class="container">
 <div class="row">
-<div class="col-lg-12">
-<p><h1 class=" restaurant-title">Ciao Andrea</h1></p>
-<p><h2 class="orange1"> Gestione Ristoranti</h2></p>
+<div class="col-sm-3 col-m-3 col-lg-3 sidebar hidden-xs">
+  <ul>
+    <hr>
+    <a href="account-restaurant.html"><li><h5>Account</h5></li></a>
+    <a href="account-restaurant-orders.html"><li><h5>Ordini</h5></li></a>
+    <a href="account-restaurant-payment.html"><li><h5>Metodi di pagamento</h4></li></a>
+    <hr>
+  </ul>
 </div>
+<div class="col-sm-4 col-md-4 col-lg-4 col-xs-12 login">
+<h2 class="text-center">Il mio ristorante</h2>
+<hr></hr>
+<div class="form-group">
+<label for="usr">Nome</label>
+<input class="form-control" type="text" placeholder="Username">
 </div>
+<div class="form-group">
+<label for="usr">Email</label>
+<input class="form-control" type="text" placeholder="Indirizzo Email">
+</div>
+<div class="form-group clearfix">
+<label style="display: block;" for="usr">Password</label>
+<div class="pull-left">●●●●●●●●●●</div>
+<div class="pull-right"><a href="change-password.html">Modifica password</a></div>
+</div>
+ <div class="form-group">
+        <label class="clearfix" for="usr">Telefono</label>
+        <input class="form-control" type="text" placeholder="+39 111 1111111">
+        </div>
 <div class="row">
-<div class="col-md-5">
-  <div class="col-md-6">
-  <h4>Città</h4>
-  <a href="#"><div class="btn-city">Milano</div></a>
-  <a href="#"><div class="btn-city">Roma</div></a>
-  <a href="#"><div class="btn-city">Firenze</div></a>
-  <a href="#"><div class="btn-city">Venezia</div></a>
-  </div>
-    <div class="col-md-6">
-  <h4>Comune</h4>
-  <a href="#"><div class="btn-city">Milano</div></a>
-  <a href="#"><div class="btn-city">Gessate</div></a>
-  <a href="#"><div class="btn-city">Cassano d'Adda</div></a>
-  <a href="#"><div class="btn-city">Carugate</div></a>
-    </div>
+<div class="col-lg-12 login">
+<div class="btn btn-block btn-login">Salva modifiche</div>
 </div>
-<div class="col-md-7">
-
-<div class="col-md-6">
-    <h4>Ristoranti Gessate</h4>
-   <a href="#"><div class="btn-restaurant">La rosa camuna<span class="pull-right"><i class="fa fa-cog" aria-hidden="true"></i>
-</span></div></a>
-   <a href="#"><div class="btn-restaurant">La rosa camuna<span class="pull-right"><i class="fa fa-cog" aria-hidden="true"></i>
-</span></div></a>
-   <a href="#"><div class="btn-restaurant">La rosa camuna<span class="pull-right"><i class="fa fa-cog" aria-hidden="true"></i>
-</span></div></a>
-   <a href="#"><div class="btn-restaurant">La rosa camuna<span class="pull-right"><i class="fa fa-cog" aria-hidden="true"></i>
-</span></div></a>
-   <a href="#"><div class="btn-restaurant">La rosa camuna<span class="pull-right"><i class="fa fa-cog" aria-hidden="true"></i>
-</span></div></a>
-   <a href="#"><div class="btn-restaurant">La rosa camuna<span class="pull-right"><i class="fa fa-cog" aria-hidden="true"></i>
-</span></div></a>
-    </div>
-    <div class="col-md-6" style="margin-top: 29px;">
-   <a href="#"><div class="btn-restaurant">La rosa camuna<span class="pull-right"><i class="fa fa-cog" aria-hidden="true"></i>
-</span></div></a>
-   <a href="#"><div class="btn-restaurant">La rosa camuna<span class="pull-right"><i class="fa fa-cog" aria-hidden="true"></i>
-</span></div></a>
-   <a href="#"><div class="btn-restaurant">La rosa camuna<span class="pull-right"><i class="fa fa-cog" aria-hidden="true"></i>
-</span></div></a>
-   <a href="#"><div class="btn-restaurant">La rosa camuna<span class="pull-right"><i class="fa fa-cog" aria-hidden="true"></i>
-</span></div></a>
-   <a href="#"><div class="btn-restaurant">La rosa camuna<span class="pull-right"><i class="fa fa-cog" aria-hidden="true"></i>
-</span></div></a>
-   <a href="#"><div class="btn-restaurant">La rosa camuna<span class="pull-right"><i class="fa fa-cog" aria-hidden="true"></i>
-</span></div></a>
-    </div>
+</div>
+<hr>
+<p>Desideri eliminare il tuo account Skipeat?</p>
+<p><a href="#">Elimina il mio account</a></p>
+<hr>
 </div>
 </div>
 </div>
-
-<footer>
-<div class="container"><hr><div class="pull-left">Skipeat, Inc.</div>
-</div>
-</footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment-with-locales.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.47/js/bootstrap-datetimepicker.min.js"></script>
-<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 
   </body>
 </html>
