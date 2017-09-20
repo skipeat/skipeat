@@ -100,10 +100,29 @@ window.Laravel = {"csrfToken":"Bd3jfZxwi0qpbQWg3KLNusklP6yO3qHjl5AUakrl"};
         <label for="usr">Telefono</label>
         <input class="form-control" type="text" placeholder="+39 111 1111111">
         </div>
-        <form>
+        <div class="form-group">
+        <label for="usr">Orari</label>
+        <div>Orario apertura</div>
+        <input class="form-control hours" type="text"></input>
+        <br>
+        <div>Orario chiusura</div>
+        <input class="form-control hours" type="text"></input>
+        </div>
+        <div class="form-group">
+        <label for="usr">Giorni apertura</label>
+        <div>
+<span class="days"><input type="checkbox">Lunedì</input></span>
+<span class="days"><input type="checkbox">Martedì</input></span>
+<span class="days"><input type="checkbox">Mercoledì</input></span>
+<span class="days"><input type="checkbox">Giovedì</input></span>
+<span class="days"><input type="checkbox">Venerdì</input></span>
+<span class="days"><input type="checkbox">Sabato</input></span>
+<span class="days"><input type="checkbox">Domenica</input></span>
+        </div>
+        <form style="margin-top: 15px;">
         <div class="form-group">
         <div class="clearfix">
-           <label for="usr">Prezzo</label></div>
+           <label for="usr">Prezzi</label></div>
            <fieldset class="rating">
     <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5"></label>
     <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4"></label>

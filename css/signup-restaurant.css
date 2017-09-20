@@ -27,7 +27,13 @@
 
 }
 
+.hours{
+  width: 200px;
+}
 
+.days{
+  margin-right: 10px;
+}
 .rating > input:checked ~ label, 
 .rating:not(:checked) > label:hover, 
 .rating:not(:checked) > label:hover ~ label { color: #ff7400;  } 
