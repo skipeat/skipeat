@@ -851,7 +851,16 @@ textarea{
 }
 
 footer{
+  margin-top: 50px;
   height: 80px;
+}
+
+.socialicon{
+  margin-right: 15px;
+}
+
+a .socialicon{
+  color: #333;
 }
 
   @media (max-width: 480px){
