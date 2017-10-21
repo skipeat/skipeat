@@ -18,6 +18,16 @@
 }
 
 .time{
+	font-size: 14px;
+	padding-top: 9px;
+
+	width: 20%;
+	border: 1px solid #000;
+	height: 40px;
+
+}
+
+.order-state-box{
 	padding: 9px;
 	width: 15%;
 	border: 1px solid #000;
@@ -25,9 +35,10 @@
 
 }
 
+
 .order-name{
 	padding: 9px;
-	width: 55%;
+	width: 50%;
 		border: 1px solid;
 		height: 40px;
 }
