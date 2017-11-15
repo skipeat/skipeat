@@ -86,4 +86,13 @@ ul.times li{
 h3#category1.menucategory{
 	margin-top: 0;
 }
+.menuitemlisting{
+	width: 100%;
+}
+.menuitem{width: 80%;
+float: left:;}
+
+.itemprice{
+
+}
 
