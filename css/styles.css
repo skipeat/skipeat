@@ -55,6 +55,10 @@ body,html {
   font-weight: 100;
 }
 
+.info-listing{
+  height: 150px;
+}
+
 #filters .modal-header{
     border-bottom: 1px solid #e4e4e4;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
@@ -435,7 +439,7 @@ line-height: 34px
 }
 
 .listing{
-margin-bottom: 20px;
+margin-bottom: 50px;
 }
 
 .mgb40{
